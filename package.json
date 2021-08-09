@@ -1,7 +1,7 @@
 {
-  "name": "Better-weather-dash",
+  "name": "better-weather-dash",
   "version": "1.0.0",
-  "description": "",
+  "description": "Weather Dashoboard is a app that allows you to get the current and upcoming weather conditions for any city, it also saves your past searches for quick access to a previoous city. For this task i used the openweather api to get the weather, jquery for a dynamic page.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
