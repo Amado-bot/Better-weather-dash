@@ -16,7 +16,7 @@ $("#search-button").on("click", function () {
     city = $("#searchValue").val();
     $("#searchValue").val("");
 
-    const queryUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=27be5eaf78baf6d8d8bf43cfd9dbb859";
+    const queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=27be5eaf78baf6d8d8bf43cfd9dbb859";
 
     $.ajax({
             url: queryUrl,
@@ -63,7 +63,7 @@ function callForecast() {
     $.ajax({
         url:
             // "https://api.openweathermap.org/data/2.5/forecast?q=" + city + key
-            "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&APPID=27be5eaf78baf6d8d8bf43cfd9dbb859",
+            "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&APPID=27be5eaf78baf6d8d8bf43cfd9dbb859",
         method: "GET"
     }).then(function (response) {
         $('#forecast').empty();
